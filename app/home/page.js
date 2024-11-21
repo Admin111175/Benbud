@@ -1,4 +1,3 @@
-import { Background } from "react-imgix";
 import styles from "../page.module.css";
 
 export default function HomePage() {
