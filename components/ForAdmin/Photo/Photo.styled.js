@@ -90,12 +90,12 @@ export const PhotoDelWrapper = styled.div`
   width: 80px;
   height: 80px;
   transition: all 0.3s ease;
-  transform: ${({ isMarked }) => (isMarked ? "scale(0.9)" : "")};
+  transform: ${({ $isMarked }) => ($isMarked ? "scale(0.9)" : "")};
   margin: 10px;
 
   img {
-    border: ${({ isMarked }) =>
-      isMarked ? "2px solid red" : "2px solid transparent"};
+    border: ${({ $isMarked }) =>
+      $isMarked ? "2px solid red" : "2px solid transparent"};
     border-radius: 12px;
     transition: all 0.3s ease;
   }
@@ -106,7 +106,7 @@ export const PhotoDelWrapper = styled.div`
 `;
 
 export const RemoveIcon = styled.div`
-  display: ${({ isMarked }) => (isMarked ? "block" : "none")};
+  display: ${({ $isMarked }) => ($isMarked ? "block" : "none")};
   position: absolute;
   top: 35px;
   right: 25px;
