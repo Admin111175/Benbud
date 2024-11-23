@@ -38,12 +38,12 @@ export const MenuComponent = () => {
 
   return (
     <Menu>
-      <Burger onClick={toggleMenu} isOpen={isOpen} ref={burgerRef}> {/* Użycie referencji dla burgera */}
+      <Burger onClick={toggleMenu} $isOpen={isOpen} ref={burgerRef}> {/* Użycie referencji dla burgera */}
         <BurgerLine className="first" />
         <BurgerLine className="second" />
         <BurgerLine className="third" />
       </Burger>
-      <Nav isOpen={isOpen} ref={dropdownRef}>
+      <Nav $isOpen={isOpen} ref={dropdownRef}>
         <li>
           <Link href="/home" onClick={() => setIsOpen(false)}>
             <p>Home</p>
