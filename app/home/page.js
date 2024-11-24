@@ -7,35 +7,27 @@ export default function HomePage() {
         style={{
           width: "80%",
           margin: "20px auto",
-          backgroundColor: "rgba(0, 0, 0, 0.8)",
+          backgroundColor: "rgba(240, 240, 240, 0.9)",
           padding: "10px",
         }}
       >
         <h2>Witamy w naszej aplikacji!</h2>
         <p>
-          Nasze narzędzie zostało stworzone, aby ułatwić komunikację z klientami
-          w zakresie usług i napraw. Dzięki przyjaznym funkcjom możesz lepiej
-          zarządzać naszą współpracą.
+         Trzeba wymyslec jakas tresc
         </p>
         <h2>Przesyłanie zdjęć i opisów</h2>
         <p>
-          Udostępniaj zdjęcia i opisy, aby szybko i sprawnie przekazywać
-          szczegóły dotyczące możliwości wykonanej usługi. To proste rozwiązanie
-          pozwala na bieżąco informować serwis i utrzymywać wysoką jakość
-          obsługi.
+         ...................
         </p>
         <h2>Koordynacja i umawianie spotkań</h2>
         <p>
           Organizuj spotkania, koordynuj terminy i dbaj o szczegóły – wszystko w
-          jednym miejscu. Dzięki naszej aplikacji Twoja komunikacja z serwisem
+          jednym miejscu. Dzięki naszej aplikacji Twoja komunikacja z nasza firma
           stanie się prostsza i bardziej efektywna.
         </p>
         <h2>Sprawniejsza organizacja pracy</h2>
         <p>
-          Używając naszego narzędzia, zyskasz kontrolę nad swoimi reklamacjami i
-          lepszą organizację pracy. A jesli jesteś klientem indywidualnym łatwo
-          możesz skierować zapytanie do serwisu. Dołącz do nas i zobacz, jak
-          możesz usprawnić nasza współprace.
+         ................
         </p>
         <h2>Rejestracja i logowanie</h2>
         <p>

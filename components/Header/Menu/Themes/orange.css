@@ -1,5 +1,5 @@
 :root[data-theme='orange'] {
-  --foreground-rgb: 200, 200, 20;
+  --foreground-rgb: 150, 60, 20;
   --background-start-rgb: 215, 119, 20;
   --background-end-rgb: 255, 255, 255;
 }

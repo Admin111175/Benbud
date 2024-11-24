@@ -5,7 +5,7 @@ import { AuthForm } from "@/components/AuthForm/AuthForm";
 
 export const NotLoggedIn = () => {
   const [isAuthFormVisible, setIsAuthFormVisible] = useState(true);
-  const [zoomOut, setZoomOut] = useState(false);
+  const [zoomOut, setZoomOut] = useState(true);
 
   // Funkcja pokazująca formularz i ustawiająca zoomOut na false
   const showAuthForm = () => {
@@ -27,7 +27,6 @@ export const NotLoggedIn = () => {
       <Icon onClick={showAuthForm} title="Nie jesteś zalogowany">
         😴
         <p>Log in</p>
-
       </Icon>
     </>
   );

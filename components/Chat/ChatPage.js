@@ -134,7 +134,7 @@ const [position, setPosition] = useState({ top: "0px", left: "0px" });
             </>
           ) : (
             <GuestChatContainer>
-              <p>Zaloguj się, aby uzyskać dostęp do czatu</p>
+              <p>Zaloguj się i zadaj pytanie</p>
             </GuestChatContainer>
           )}
         </ChatPageContainer>

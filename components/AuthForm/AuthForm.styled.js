@@ -181,8 +181,9 @@ export const MinimizedFormButton = styled.button`
   border: none;
   z-index: 1000;
   font-size: 35px;
-  cursor: url("/cursor-pointer.svg"), pointer;
+  cursor: pointer;
   transition: 0.2s ease-in-out;
+  cursor: url("/cursor-pointer.svg"), pointer;
 
   animation: slideForm 0.5s ease-in-out;
   @keyframes slideForm {

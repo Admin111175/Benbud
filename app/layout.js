@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
                   </li>
                 </ul>
               </footer>
-              <ChatPage />
+              {/* <ChatPage /> */}
             </div>
           )}
         </body>

@@ -10,7 +10,7 @@ export const Nav = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background-color: rgba(12, 38, 124, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   width: 100%;
   top: 70px;
@@ -66,3 +66,12 @@ export const Nav = styled.ul`
     padding-right: 1%;
   }
 `;
+export const Admin = styled.li`
+  display: ${({ $isAdmin }) => ($isAdmin ? "inline" : "none")};
+
+`
+
+export const User = styled.li`
+  display: ${({ $isAdmin }) => ($isAdmin ? "none" : "inline")};
+
+`

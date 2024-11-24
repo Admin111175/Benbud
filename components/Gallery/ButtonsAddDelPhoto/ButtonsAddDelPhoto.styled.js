@@ -24,12 +24,12 @@ export const ButtonAdd = styled.button`
   border-radius: 10px;
   border: none;
   font-weight: bold;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, rgb(230,230,230), rgb(10, 50, 10), rgb(100, 60, 20));
   cursor: pointer;
   transition: background 0.3s ease, transform 0.3s ease;
 
   &:hover {
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    background: linear-gradient(135deg,rgb(100, 60, 20), rgb(10, 50, 10),rgb(230,230,230));
     transform: scale(1.05);
   }
 
@@ -44,12 +44,12 @@ export const ButtonDel = styled.button`
   border-radius: 10px;
   border: none;
   font-weight: bold;
-  background: linear-gradient(-135deg, #6a11cb, #2575fc);
+  background: linear-gradient(-135deg, rgb(230,230,230), rgb(10, 50, 10), rgb(100, 60, 20));
   cursor: pointer;
   transition: background 0.3s ease, transform 0.3s ease;
 
   &:hover {
-    background: linear-gradient(-135deg, #2575fc, #6a11cb);
+    background: linear-gradient(-135deg,rgb(100, 60, 20), rgb(10, 50, 10),rgb(230,230,230));
     transform: scale(1.05);
   }
 

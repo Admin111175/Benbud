@@ -72,7 +72,7 @@ export const UsersGalleries = () => {
         aria-haspopup="true"
       >
         <p>
-          Users Galleries <span>^</span>
+          Galleries <span>^</span>
         </p>
       </DropdownButton>
       <DropdownMenu $isOpen={isOpen}>

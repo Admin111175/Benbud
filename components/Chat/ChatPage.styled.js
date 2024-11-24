@@ -83,6 +83,6 @@ export const MinimizedChatButton = styled.button`
 `;
 
 export const GuestChatContainer = styled.div`
-  padding: 5px;
+  padding: 15px 5px;
   text-align: center;
 `;

@@ -68,7 +68,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 body {
-  background-image: url("../public/desktop-electric-background.png");
+  background-image: url("/tło-narzedzia.jpg");
   background-size: cover; 
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -87,9 +87,9 @@ a {
 }
 button {
   /* cursor: url("../public/cursor-pointer.svg"), pointer; */
-  cursor: url("/cursor-pointer.svg"), pointer;
+  cursor: pointer;
   color: var(--foreground-rgb);
-  background-color: rgb(46, 46, 46);
+  background-color: rgba(6, 71, 6, 1);
 }
 
 *,
@@ -107,7 +107,7 @@ a {
 
 p:hover {
   transform: scale(1.005);
-  color: rgba(var(--foreground-rgb), 0.6);
+  color: rgba(var(--foreground-rgb), 0.7);
 }
 
 h1,
@@ -117,7 +117,7 @@ h4,
 h5,
 p {
   color: rgb(var(--foreground-rgb));
-  text-shadow: 4px 4px 3px rgba(0, 0, 0, 1);
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4);
   transition: 150ms ease-in-out;
 }
 h2 {

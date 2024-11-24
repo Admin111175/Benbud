@@ -87,7 +87,7 @@ export const UploadModal = ({ onClose }) => {
   return (
     <Modal>
       {!user && (
-        <Info isLoggedIn={false}>
+        <Info $isLoggedIn={false}>
           <h2>Aby dodać zdjęcie musisz być zalogowany</h2>
         </Info>
       )}
