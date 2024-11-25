@@ -6,7 +6,7 @@ export default function ContactPage() {
   return (
     <div style={{ padding: "6rem 10px" }}>
       <ChatPage />
-      <div style={{backgroundColor: "gray", padding: "20px", width: "60%", margin: "20px auto"}}>
+      <div style={{backgroundColor: "gray", padding: "20px", width: "60%", margin: "0 auto"}}>
         <h2>Dane kontaktowe</h2>
         <h3 style={{ textAlign: "center", padding: "10px" }}>
           tel: 881-449-770
