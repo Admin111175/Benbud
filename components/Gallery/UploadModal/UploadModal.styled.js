@@ -7,12 +7,26 @@ export const Modal = styled.div`
   width: calc(100% - 30px);
   margin: 0 15px;
   padding: 10% 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(230, 230, 230, 0.8);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
   z-index: 100;
+
+  input {
+border: 2px solid;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer; 
+transition: 0.3s ease;
+
+&:hover {
+  transform: scale(1.05);
+  background-color: rgbA(0,0,0,0.6);
+}
+
+  }
 
   button {
     padding: 10px 25px;
@@ -21,12 +35,12 @@ export const Modal = styled.div`
     border-radius: 10px;
     border: none;
     font-weight: bold;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #033607, #2575fc);
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
 
     &:hover {
-      background: linear-gradient(135deg, #2575fc, #6a11cb);
+      background: linear-gradient(135deg, #2575fc, #033607);
       transform: scale(1.05);
     }
 
