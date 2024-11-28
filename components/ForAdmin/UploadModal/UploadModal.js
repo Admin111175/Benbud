@@ -171,11 +171,11 @@ export const UploadModalForAdmin = ({ onClose, userId }) => {
       )} */}
       <h2>Dodaj nowe zdjęcie</h2>
       <input type="file" onChange={handleFileChange} />
-      <textarea
+      {/* <textarea
         placeholder="Dodaj opis zdjęcia"
         value={description}
         onChange={handleDescriptionChange}
-      />
+      /> */}
       <button onClick={handleUpload} disabled={!user || loading}>
         {loading ? "Wysyłanie..." : "Prześlij"}
       </button>

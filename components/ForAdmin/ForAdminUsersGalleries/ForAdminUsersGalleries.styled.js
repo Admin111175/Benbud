@@ -28,6 +28,7 @@ export const DropdownButton = styled.button`
 
 export const DropdownMenu = styled.ul`
   display: ${({ $isOpen }) => ($isOpen ? "block" : "none")};
+  width: 200px;
   padding: 5px;
   position: absolute;
   background-color: rgba(12, 38, 124, 0.8);

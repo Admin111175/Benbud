@@ -14,6 +14,20 @@ export const Modal = styled.div`
   gap: 15px;
   z-index: 100;
 
+  input {
+border: 2px solid;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer; 
+transition: 0.3s ease;
+
+&:hover {
+  transform: scale(1.05);
+  background-color: rgb(0,0,0);
+}
+
+  }
+
   button {
     padding: 10px 25px;
     width: 110px;
